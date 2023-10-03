@@ -1,10 +1,10 @@
 /* styles.css */
 @font-face {
-  font-family: 'Lato-Thin';
-  src: url('Lato-Thin.ttf') format('truetype');
+  font-family: 'Pixelify';
+  src: url('Pixelify.ttf') format('truetype');
 }
 
 .custom-font {
-  font-family: 'Lato-Thin.ttf', sans-serif; /* Use your custom font */
+  font-family: 'Pixelify.ttf', sans-serif; /* Use your custom font */
   font-size: 24px;
 }
