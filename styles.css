@@ -1,10 +1,10 @@
 /* styles.css */
 @font-face {
-  font-family: 'CustomFont';
-  src: url('https://github.com/Ekinsley2002/Ekinsley2002.github.io/blob/3f5bbce5e4e0a90fc61f7311245594e9afa2802c/Roboto-Black.ttf') format('truetype');
+  font-family: 'Roboto-Black';
+  src: url('Roboto-Black.ttf') format('truetype');
 }
 
 .custom-font {
-  font-family: 'CustomFont', Roboto-Black; /* Use your custom font */
+  font-family: 'Roboto=Black', sans-serif; /* Use your custom font */
   font-size: 24px;
 }
