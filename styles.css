@@ -1,10 +1,10 @@
 /* styles.css */
 @font-face {
   font-family: 'Lato Hairline';
-  src: url('https://github.com/Ekinsley2002/Ekinsley2002.github.io/blob/6be4209cd0e90b5a520792921acea6cb23308a5b/Lato-Thin.ttf') format('truetype');
+  src: url('Lato-Thin.ttf') format('truetype');
 }
 
 .custom-font {
-  font-family: 'https://github.com/Ekinsley2002/Ekinsley2002.github.io/blob/6be4209cd0e90b5a520792921acea6cb23308a5b/Lato-Thin.ttf', sans-serif; /* Use your custom font */
+  font-family: 'Lato Hairline', sans-serif; /* Use your custom font */
   font-size: 24px;
 }
