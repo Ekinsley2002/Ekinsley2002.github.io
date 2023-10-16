@@ -24,7 +24,7 @@ h3 {
 }
 
 p {
-    font-size: 1em; /* Main text size */
+    font-size: 25em; /* Main text size */
     margin-bottom: 15px;
     background-color: lightblue;
     padding: 10px; /* This gives a little space around the text within the background */
