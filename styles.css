@@ -1,0 +1,33 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Placeholder font */
+    background-color: #f4f4f4; /* Light grey background color */
+    color: #333; /* Dark grey text color */
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2em; /* Placeholder size */
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+p {
+    font-size: 1em; /* Main text size */
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
