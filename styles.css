@@ -1,16 +1,16 @@
 /* styles.css */
 @font-face {
-  font-family: 'Lato Hairline';
-  src: url('Lato-Thin.ttf') format('truetype');
+  font-family: 'Inter-Black';
+  src: url('Inter-Black.ttf') format('truetype');
 }
 
 .custom-font {
-  font-family: 'Lato Hairline', Helvatica; /* Use your custom font */
+  font-family: 'Inter-Black', Helvatica;
   font-size: 20px;
 }
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif; /* Placeholder font */
+    font-family: 'Arial', sans-serif;
     background-color: #f4f4f4; /* Light grey background color */
     color: #333; /* Dark grey text color */
     margin: 0;
