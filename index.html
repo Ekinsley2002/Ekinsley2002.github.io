@@ -3,37 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Choose Your Adventure</title>
+    <title>Your Page Title</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Choose Your Adventure</h1>
+        <div id="header-content">
+            <img src="smiley-left.png" alt="Left Smiley" class="smiley">
+            <h1 id="page-title">Do Something!</h1>
+            <img src="smiley-right.png" alt="Right Smiley" class="smiley">
+        </div>
     </header>
 
     <main>
-        <section id="story">
-            <!-- Story text will be displayed here -->
-            <p>Welcome to the exciting adventure!</p>
-        </section>
-
-        <section id="choices">
-            <!-- Choice buttons will be generated here -->
-            <button id="choice1">Choice 1</button>
-            <button id="choice2">Choice 2</button>
-        </section>
-
-        <section id="image">
-            <!-- Image related to the story will be displayed here -->
-            <img src="sample-image.jpg" alt="Adventure Image">
-        </section>
+        <p>Click the button below to get friendly ideas of things to do:</p>
+        <div id="ideas-container">
+            <!-- Ideas will be displayed here -->
+        </div>
+        <button id="generate-idea-button">Generate Idea</button>
     </main>
 
+    <aside id="advertisement">
+        <a href="https://www.amazon.com/" target="_blank">
+            <img src="advertisement-image.jpg" alt="Advertisement" id="advertisement-image">
+        </a>
+    </aside>
+
     <footer>
-        <!-- Ending message will be displayed here -->
-        <p>Thanks for playing!</p>
+        <p>
+            <strong>Addendum:</strong> 
+            This JavaScript solution provides friendly ideas of things to do when the "Generate Idea" button is clicked. 
+            It uses an array of ideas and cycles through them as the button is clicked. 
+            If it reaches the end of the ideas, it starts over from the beginning. 
+            This approach ensures a continuous supply of ideas for users.
+        </p>
+        <p>
+            <strong>Difficulties Encountered:</strong>
+            <br>
+            - Ensuring the ideas don't repeat until all have been shown: Solved by resetting the index when reaching the end.
+            <br>
+            - Displaying the initial explanation text: Solved by setting it in the JavaScript code.
+        </p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
