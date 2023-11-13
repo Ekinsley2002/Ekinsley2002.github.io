@@ -34,8 +34,8 @@ header {
 
 /* Style the smiley images */
 .smiley {
-    width: 5px; /* Set the width of the smiley images */
-    height: 5px; /* Set the height of the smiley images */
+    width: 40px; /* Set the width of the smiley images */
+    height: 40px; /* Set the height of the smiley images */
     margin: 0 10px; /* Adjust the margin to control spacing */
 }
 
