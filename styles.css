@@ -24,6 +24,11 @@ header {
     text-align: center;
     padding: 20px;
 }
+#header-content {
+    display: flex; /* Use Flexbox to arrange items horizontally */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
 
 #page-title {
     font-size: 36px;
