@@ -79,6 +79,20 @@ main {
     border: 1px solid #ccc;
 }
 
+/* Style the advertisement image */
+#advertisement-image {
+    width: 100%; /* Ensure the image takes the full width of the container */
+    max-width: 300px; /* Limit the maximum width of the image */
+    height: auto;
+}
+
+/* Style the link */
+#advertisement a {
+    text-decoration: none; /* Remove underlines from the link */
+    color: #333;
+    display: block; /* Make the link cover the entire image */
+}
+
 footer {
     grid-column: 1 / -1; /* Span all columns */
     background-color: #333;
