@@ -3,53 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do Something!</title>
+    <title>Choose Your Adventure</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="smiley-left.png" alt="Left Smiley" class="smiley">
-        <h1 id="page-title">Do Something!</h1>
-        <img src="smiley-right.png" alt="Right Smiley" class="smiley">
+        <h1>Choose Your Adventure</h1>
     </header>
-    <aside id="menu">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </aside>
+
     <main>
-        <p>Click the button below to get friendly ideas of things to do:</p>
-        <div id="ideas-container">
-        <!-- Ideas will be displayed here -->
-        </div>
-        <button id="generate-idea-button">Generate Idea</button>
+        <section id="story">
+            <!-- Story text will be displayed here -->
+            <p>Welcome to the exciting adventure!</p>
+        </section>
+
+        <section id="choices">
+            <!-- Choice buttons will be generated here -->
+            <button id="choice1">Choice 1</button>
+            <button id="choice2">Choice 2</button>
+        </section>
+
+        <section id="image">
+            <!-- Image related to the story will be displayed here -->
+            <img src="sample-image.jpg" alt="Adventure Image">
+        </section>
     </main>
-    <aside id="advertisement">
-        <a href="https://www.amazon.com/Yankee-Candle-Large-Sparkling-Cinnamon/dp/B001L2MD2E/ref=sr_1_7?crid=2YONJNEO5HY0W&keywords=candle&qid=1699907287&sprefix=candl%2Caps%2C121&sr=8-7&th=1" target="_blank/">
-            <img src="advertisement-image1.jpg" alt="Advertisement" id="advertisement-image1">
-        </a>
-    </aside>
+
     <footer>
-        <p>
-        <strong>Addendum:</strong> 
-        This JavaScript solution provides friendly ideas of things to do when the "Generate Idea" button is clicked. 
-        It uses an array of ideas and cycles through them as the button is clicked. 
-        If it reaches the end of the ideas, it starts over from the beginning. 
-        This approach ensures a continuous supply of ideas for users.
-    </p>
-    <p>
-        <strong>Difficulties Encountered:</strong>
-        <br>
-        - Ensuring the ideas don't repeat until all have been shown: Solved by resetting the index when reaching the end.
-        <br>
-        - Displaying the initial explanation text: Solved by setting it in the JavaScript code.
-    </p>
+        <!-- Ending message will be displayed here -->
+        <p>Thanks for playing!</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
