@@ -86,7 +86,7 @@ main {
 
 /* Style the advertisement image */
 #advertisement-image {
-    max-width: 200px; /* Set the maximum width for the image */
+    max-width: 5px; /* Set the maximum width for the image */
     height: auto; /* Maintain aspect ratio */
 }
 
